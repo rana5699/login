@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.form-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: red;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('login-page/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-box{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    margin: 7% auto;
+    background-color: #fff;
+    padding: 5px;
+}
+.button-box{
+    position: relative;
+    width: 220px;
+    margin: 35px auto;
+    box-shadow: 0 0 20px 9px rgb(170, 170, 66);
+    border-radius: 30px;
+}
+.toogle-btn{
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+#button1{
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 50px;
+    transition: .5s;
+}
+.icon-box{
+    margin: 30px auto;
+    text-align: center;
+    transition: .5s;
+}
+.icon-box img{
+    width: 35px;
+    margin: 0px 30px;
+    box-shadow: 0 0 20px 0 rgb(173, 123, 123);
+    cursor: pointer;
+    border-radius: 30px;
+}
+.input-box{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.sign-btn{
+    width: 85%;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.check-box{
+    margin: 30px 10px 30px 0px;
+}
+#span-id{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+}
+#login{
+    left: 50px;
+}
+#resigter{
+    left: 450px;
+}

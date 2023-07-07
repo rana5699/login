@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-box">
+        <div class="login-box">
+            <div class="button-box">
+                <div id="button1"></div>
+                <button class="toogle-btn" type="button" onclick="login()">Sign-IN</button>
+                <button class="toogle-btn" type="button" onclick="resigter()">Sign-UP</button>
+            </div>
+            <div class="icon-box">
+                <img src="login-page/images/facebook.jpg" alt="">
+                <img src="login-page/images/google.jpg" alt="">
+                <img src="login-page/images/twitter.jpg" alt="">
+            </div>
+            <form id="login" class="input-box">
+                <input type="text" class="input-field" placeholder="User-ID">
+
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+
+                <input type="checkbox" class="check-box"><span id="span-id">Remember Password</span>
+                <button type="submit" class="sign-btn">Sign-IN</button>
+            </form>
+
+            <form id="resigter" class="input-box">
+                <input type="text" class="input-field" placeholder="User-ID">
+                <input type="email" class="input-field" placeholder="Enter email" required>
+
+                <input type="password" class="input-field" placeholder="Enter Password">
+
+                <input type="checkbox" class="check-box"><span id="span-id">Terms and Condition</span>
+                <button type="submit" class="sign-btn">Sign-UP</button>
+            </form>
+    </div>
+    </div>
+    </div>
+
+    <script>
+
+        var x = document.getElementById("login");
+        var y = document.getElementById("resigter");
+        var z = document.getElementById("button1");
+
+        function resigter(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "-450px";
+            z.style.left = "0";
+        }
+
+    </script>
+</body>
+</html>
